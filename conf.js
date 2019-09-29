@@ -32,6 +32,11 @@ jsproxy_config({
         [location.host]: 1,
       }
     },
+    'a': { label: 'a', lines: {'www.eieee.cf:80': 1} },
+    'b': { label: 'b', lines: {'www.kernels.bid:80': 1} },
+    'c': { label: 'c', lines: {'www.kernels.bid:80/ws': 1} },
+    'd': { label: 'd', lines: {'www.kernels.bid:443': 1} },
+    'e': { label: 'e', lines: {'www.kernels.bid:443/ws': 1} },
     // 该节点用于加载大体积的静态资源
     'cfworker': {
       label: '',
